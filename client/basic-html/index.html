@@ -15,7 +15,7 @@
     const baseUrl = "express base url";
 
     async function createCheck(payload) {
-      await fetch(`${baseUrl}/sessions`, {
+      await fetch(`${baseUrl}/checks`, {
         method: "POST",
         body: JSON.stringify(payload),
         headers: {

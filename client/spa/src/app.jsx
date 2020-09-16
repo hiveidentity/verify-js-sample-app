@@ -3,10 +3,10 @@ import { Verify } from "@hiveid/verify-js";
 
 const applicationKey = "hWsqWCs7fS4nfKW1cYevw7fxVGKTN766";
 const customerId = "6ff92788-43be-413a-b1da-d7ebce2af91a";
-const baseUrl = "http://localhost:9070";
+const baseUrl = "express base url";
 
 async function createCheck(payload) {
-  await fetch(`${baseUrl}/sessions`, {
+  await fetch(`${baseUrl}/checks`, {
     method: "POST",
     body: JSON.stringify(payload),
     headers: {
