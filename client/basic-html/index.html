@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Example Verify Installation</title>
-  <script src="https://cdn.hive.id/verify-js/2.0.0/verify.js"></script>
+  <script src="https://cdn.hive.id/verify-js/2.0.2/verify.js"></script>
 </head>
 
 <body>
@@ -51,6 +51,13 @@
         language: "en", // supported de, en, es, fr,
         languageSelector: true, // default true
         mode: "modal", // modal | inline, default modal
+        theme: {
+          primaryColor: "#6E37D8",
+          secondaryColor: "#DFCFF8",
+          buttonPrimaryHover: "#5426AB",
+          buttonPrimaryText: "#ffffff",
+          QRCodeColor: "#000000"
+        },
       });
 
       const handleVerificationCompleted = (payload) => {

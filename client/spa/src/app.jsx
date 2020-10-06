@@ -29,9 +29,16 @@ async function createSession(payload) {
 }
 
 Verify.configure(applicationKey, {
-  language: "en", // supported de, en, es, fr,
-  languageSelector: true, // default true
-  mode: "modal", // modal | inline, default modal
+	language: "en", // supported de, en, es, fr,
+	languageSelector: true, // default true
+	mode: "modal", // modal | inline, default modal,
+	theme: {
+		primaryColor: "#6E37D8",
+		secondaryColor: "#DFCFF8",
+		buttonPrimaryHover: "#5426AB",
+		buttonPrimaryText: "#ffffff",
+		QRCodeColor: "#000000"
+	}
 });
 
 export function App() {

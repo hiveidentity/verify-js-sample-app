@@ -1234,10 +1234,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hiveid/verify-js@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@hiveid/verify-js/-/verify-js-2.0.0.tgz#2a4114269cd38039006bd325554e68fef3eb98cf"
-  integrity sha512-/lBWQFkkN4k3sahikJsHlz3z/hiZKGJJQHNOUKNItaG0HonpN1YL24kb0ZjJ247yo8AAh7pxnBoSPqa7lRn13A==
+"@hiveid/verify-js@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@hiveid/verify-js/-/verify-js-2.0.2.tgz#7e5de40875fe91e744a0c6c00fb85fd3e4d8a1ac"
+  integrity sha512-YSZ5qzNa5/7yBhHncqD6D9xQJ3cPxohW8OKyBrsPIkDODAVmSHiRi5aV5tW+2Z2wkgijrsqNuLDq0AxikRA9hg==
   dependencies:
     "@babel/runtime" "^7.9.2"
     effector "^20.13.4"
